@@ -1,0 +1,190 @@
+#NEXUS
+[Data written by write.nexus.data.R, Mon Apr 12 13:28:57 2021]
+BEGIN DATA;
+  DIMENSIONS NTAX=6 NCHAR=2066;
+  FORMAT DATATYPE=DNA MISSING=? GAP=- INTERLEAVE=YES;
+  MATRIX
+    weberi01          ttaggcacccatttattccgacgcaaactttg-taaggtggctgcttgagtactacgagtgcttaaaactcaaaggattt
+    weberi02          ttaggtacccttttattccggtgaaaattttgtt-t----gctacttgaggactacgattacttaaaactcaagggacat
+    sanguinea01       ttagatacccatttattccggcgcaaactttgctatggcggctgcttgagtactacgatggcttaaaactcaaaggattt
+    sanguinea05       ttagatacccatttattccgrcgcaaactttgctakggcggctgctwgagtactacgakkgcttaaaactcaaagraytt
+    lemniscata01      tttgagacccatttattccgacgcaaactttgctttggcagctgcttggggactatgagtgcttaaaactcaaagaactt
+    lemniscata03      ttaggtacccatttattccgacgcaaactttgctgcggaagctgcttgagtactacgagtgcttaaaactcaaagaattt
+
+    weberi01          ggcggctcgttaactacctaggggaatatgtgccttaatccgatgacacccgttgtatcttactgtgccttgaaaaaaag
+    weberi02          ggcggctagtcaactaattaggggaacatttgtcttaatacgaaagtgcgcgatttattagaccatatcttgaa--ctat
+    sanguinea01       ggcggctcgttaattacccaggggaatatgcgccttaatccgatgatccacgtaacatcttactgtaccttgaagaagaa
+    sanguinea05       ggcggctygttaaytacccaggggaatatgcgccttaatccgatgatmcgcgtwacatcttactgyaccttgaaraagaa
+    lemniscata01      ggcggctcgttaactacctaggggaatatgcgccttaatccgatgatccgcgtggaatcttactgtaccttgaaaaagaa
+    lemniscata03      ggcggctcgttaactacctaggggaatatgtgccttaatccgatgatacccgttatatcttactgcaccttgaaaaagaa
+
+    weberi01          cagttggtgtattgccgttgtcagcttgttgttg-agcagaa-ggaacaggcccaatggaatcgagatccgtgaattcag
+    weberi02          cagctagtgtattgccgttgtcaactaatgata-----aattaaataattagtaaatagagatgatattctagaattcag
+    sanguinea01       cagctggtgtattgccgttgtcagcttgttgttcgagcaaga-gaaacaggctcaatggagctagaatccatgaattcag
+    sanguinea05       cagctggtgtattgccgttgtcagcttgttgttmgagcaarw-graacaggctmartggagctagawtccatraattcag
+    lemniscata01      cagccggtgtattgccgtcgtcagcttgttgttcgagcaaagaaaaacaggctcaatggaactaggatccgtaaagtcag
+    lemniscata03      cagttggtgtattgccgttgtcagcttgttgtcagagcaaaa-gg???????????????????????????????????
+
+    weberi01          gtcgaaatgctgcctatggtaca-gggagtaggtattacagtttaaaa-ttaaaattacggatcttgtgaaattgaaggt
+    weberi02          gtcaaagtgctgcttatggtatggggat-tgggtgttacactcttaaattgagatacggaacttatttattacggaaggt
+    sanguinea01       gtcgaaatactgccaatggtacaagggagtgggtattacaattcagag-tttgaactacggatcctatgaaagtgaaggt
+    sanguinea05       gtcgwaatactgccaatggtrcaagggagtgggtattacaattcwgak-ttwgaaytacggatcytatgaaaktgaaggt
+    lemniscata01      gtcgaaatattgcctatggtacaagggagtgggtattacaattcagaattcgaa-acacggagcttgtgaaattgaaggc
+    lemniscata03      ????????????????????????????????????????????????????????????????????????????????
+
+    weberi01          ggacttaggagtaagggaagattaatatgctaccctgaactgaatctaacttgtgtacaaaccgcccgtcgctctcgcca
+    weberi02          gaacttaaaagtaaaaggaaattagaatgtttctttgaat-tagtgtggcttgtgtacaaactgcccgtcgctctcgtct
+    sanguinea01       ggacttgggagtaaggggggattaacatgcctccctgaactaaatctaacttgtgcacaaaccgcccgtcgctct?????
+    sanguinea05       ggacttgggagtaagrggggattaatatgcytcyctgaactraawctaacttgtgyacaaaccgcccgtcgctctcscca
+    lemniscata01      ggacttaggagtaagggaagattaatatgctcccctgaactgaaactaacttgtgtacaaaccgcccgtcgctctcgcca
+    lemniscata03      ????????????????????????????????????????????????????????????????????????????????
+
+    weberi01          ggggagatgctttctgaaaaacacggtcgtgccttcccagtgggtatacggcctaaacggacgcggtaaacgtgctaagg
+    weberi02          gaggagatgctttntgaaaaacacggtcgtgccttcccagtgggtatacggcctaaacggacgcggtaaacgtgctaagg
+    sanguinea01       ????????tctttttgtgtaccatagtcgtgccttcccagtgggttttaa-cctaaacggatgcggtaaacgtgctaagg
+    sanguinea05       ggggagat?????????????????????????????????????????????????????tgcggtaaacgtgctaagg
+    lemniscata01      ggtgagatgctttctgagaaacatggtcgtgccttcccagtgggtatacggcctaaacggacgcggtaaacgtgctaagg
+    lemniscata03      ??????????????????????????????????????????????????????????ggatgcggtaaacgtgctaagg
+
+    weberi01          tagctaaattatggcctattaattgtaggtcctgtgaatggtttgacgagtctccatctgtctcgaggttattttggtga
+    weberi02          tagctaaattatggcctattaattgtaggtcctgtgaatggtttgacgagtctccatctgtctcgaggttattttggtga
+    sanguinea01       tagctaaattatggcccattaattgtgggtcttgcgaacggcttgacgagttccctactgtctcgaagttgttttggtga
+    sanguinea05       tagctaaattatggcccattaattgtgggtcctgtgaatggtttgacgagtcctcgactgtctcaaggttgttttggtga
+    lemniscata01      tagctaaattatggcccattaattgtgggtcctgtgaatggtttgacgagtcctcgactgtctcaaggttgttttggtga
+    lemniscata03      tagctaaattatggcctattaattgtaggtcctgtgaatggtttgacgagtcttcaactgtctcaaagttattttggtga
+
+    weberi01          acttgaattaaatgtgcaaatgcatttataggtgagaaagacgagaagaccccgtgaagttaaaaattggcgtaagggga
+    weberi02          acttgaattaaatgtgcaaatgcatttataggtgagaaagacgagaagaccccgtgaagttaaaaattggcgtaagggga
+    sanguinea01       acttgaattggatgtgcaaatgcttccatgggtgagaaagacgagaagaccccgtgaagttagaaattagtatgagaaaa
+    sanguinea05       acttgaattgaatgtgcaaatgctttcataggtaagaaagacgagaagaccccgtgaagttagaaattaacgtaagggga
+    lemniscata01      acttgaattgaacgtgcaaatgctttcatgagagagaaagacgagaagaccccgtgaagttagaaattagcgttaaggga
+    lemniscata03      acttgaattaaatgtgcaaatgcatttatagggaagaaagacgagaagaccccgtgaagttagaaattaactaaagaaaa
+
+    weberi01          tcatgggttttggctggggcagcaaaaaggcaaagctagaccttt-tttgacgggtgcgttatgatccacagagatgtgc
+    weberi02          tcatgggttttggctggggcagcaaaaaggcaaagctagaccttt-tttgacgggtgcgttatgatccacagagatgtgc
+    sanguinea01       atatgggttttggctggggcagcaagaaggcaaaactagaccttctttaaacgggtgcgttacgacccataa-ggaatga
+    sanguinea05       gtatgggttttggctggggcagcaaagaggcaagtctagacctttttcaaacgggtgcgttacgacccatta-ggtgtga
+    lemniscata01      atatatgttttggctggggcagcgaagaggcaaaactagacctttttataacgggtgcgttacgacccacaattgtgtga
+    lemniscata03      gtgtaggttttggctggggcagcaaagaggcaagcctagacctct-ttagacgggtgcgttatgatccacagagatgtgc
+
+    weberi01          ttagcagaagaagttactccggggataacagcgttatcatcctgatagttcttatagacgggtgggtttgcgacctcgat
+    weberi02          ttagcagaagaagttactccggggataacagcgttatcatcctgatagttcttatatacgggtgggtttgcgacctcgat
+    sanguinea01       ttatcagaagaagttactccggggataacagcgttatcgtcctgatagtccttatagatgggcgggtttgcgacctcgat
+    sanguinea05       ttagcagaagtagttactccggggataacagcgttatcgccccgatagctcttatagacgggcgggtttgcgacctcgat
+    lemniscata01      ttaacagaaggagttactccggggataacagcgtaatctccttgatagttcttatagatgggcgggtttgcgacctcgat
+    lemniscata03      ttagcagaagaagttactccggggataacagcgtaatcatcctgatagctcttatagatgggtgggtttgcgacctcgat
+
+    weberi01          gttggctctgggtgtcctgaggct-gaggcggtcttaagggttggtttgttcgcccattaaa????cgctgccggg-acg
+    weberi02          gttggctctgggtgtcctgaggct-gangcggncttaagggttggtttgttcgcccattaaaaccccgctgccggg-acg
+    sanguinea01       gttggctctggttatcctgaggcttgaggaggtctcgagggttggtttgttcgcccattaaaatcccgctgtcgggaccg
+    sanguinea05       gttggctctggttatcctgaggcttgaggaggtctcaagggttggttcgttcgcccattaaaatcccgctgyygggascg
+    lemniscata01      gttggctccgggtatcctgaggcttgaggcggtctcaagggttggttcgttcgcccattaaaacctcgctgccgggaccg
+    lemniscata03      gttggctctgggtgtcctaaggct-gaggtggtcttaagggttggtttgttcgcccattaaaaccccgctgccgggaccg
+
+    weberi01          tggtgtttgggacgaccgctgtcgttgttcgggtgcccaagtcctcccgatcggggtccc-acagtgggtgtcaggcctt
+    weberi02          tggtgtttgggacgaccgctgtcgttgttcgggtgcccaagtcctcccgatcggggtccc-acagtgggtgtcaggcctt
+    sanguinea01       tggtgtttgggacgaccgctgtcgttgttcgggtgcccaagtcctcccgatcggggctcccacagtgggtgtcaggcctt
+    sanguinea05       tggtgtttgggacgaccgctgtcgttgttcgggtgcccaa-gtcctccgatcggggctcccacagtgggtgtcaggccwt
+    lemniscata01      tggtgtttgggacgaccgctgtcgttgttcgggtgcccaagtcctcccgatcggggtccc-acagtgggtgtcaggcctt
+    lemniscata03      tggtgttwgggacgaccgctgtcgttgttcgggtgcccaagtcctcccgatcggggtccc-acagtgggtgtcaggcctt
+
+    weberi01          taccctcgtcgacacggggtcgtcctcggagtcgggttgtttgggaatgcagcccaaagctggtggtaaactccatctaa
+    weberi02          taccctcgtcgacacggggtcgtcctcggagtcgggttgtttgggaatgcagcccaaagctggtggtaaactccatctaa
+    sanguinea01       taccctcgtcggcacggggtcgtcctcggagtcgggttgtttgggaatgcagcccaaagctggtggtaaactccatctaa
+    sanguinea05       taccctcgtcggcacgnggtcgtcctcggagtcgggttgtttgggaatgcagcccaaagykggtggtaaactccatctaa
+    lemniscata01      taccctcgtcgacacggggtcgtcctcggagtcgggttgtttgggaatgcagcccaaagctggtggtaaactccatctaa
+    lemniscata03      taccctcgtcgrcacggggtcgycctcggagtcgggttgtttgggaatgcagcccaaagctggtggtaaactccatctaa
+
+    weberi01          ctaaatactgacacgagtccgatagcggacaagtaccgtgagggaaagttgaaaagaactttgaagagagagttctagta
+    weberi02          ctaaatactgacacgagtccgatagcggacaagtaccgtgagggaaagttgaaaagaactttgaagagagagttctagta
+    sanguinea01       ctaaatactgacacgagtccgatagcggacaagtaccgtgagggaaagttgaaaagaactttgaagagagagttctagta
+    sanguinea05       ctaaatactgacacgagtccgatagcggacaagtaccgtgagggaaagttgaaaagaactttgaagagagagttckagta
+    lemniscata01      ctaaatactgacacgagtccgatagcggacaagtaccgtgagggaaagttgaaaagaactttgaagagagagttctagta
+    lemniscata03      ctaaatactgacacgagtccgatagcggacaagtaccgtgagggaaagttgaaaagaactttgaagagagagttctagta
+
+    weberi01          cgtgaaaccgcttagaggcaaacgggtggatccgtaaagtcgacccggggaattcatcttgctgtcagcggcgggctttg
+    weberi02          cgtgaaaccgcttagaggcaaacgggtggatccgtaaagtcgacccggggaattcatcttgctgtcagcggcgggctttg
+    sanguinea01       cgtgaaaccgcttagaggcaaacgggtggatccgtaaagtcgacccggggaattcatcttgctgtcagcgacgggcgtgg
+    sanguinea05       cgtgaaaccgcttagaggcaaacgggtggatccgtaaagtcgrcccggggaattcatcttgctgtcrgcgrcgggcrnnt
+    lemniscata01      cgtgaaaccgcttagaggcaaacgggtggatccgtaaagtcgacccggggaattcatcttgctgtcggcgacgggc-gct
+    lemniscata03      cgtgaaaccgcttagaggcaaacgggtggatccgtaaagtcgacccggggaattcatcttgctgtcrgcgacgggcgtyk
+
+    weberi01          tg---gagatccctcac-ggactctgcgggctgccgccggcgagtgcactttccccgggttgagcgccacgaccggtttc
+    weberi02          tg---gagatccctcac-ggactctgcgggctgccgccggcgagtgcactttccccgggttgagcgccacgaccggtttc
+    sanguinea01       --gtagggatccttaaccggaccctgctagctgccgccggcgagtgcactttccccgagtcgagcgccacgaccggtttt
+    sanguinea05       kggyagrgatcyytmaccrgacyctgctrgctgcygccggcgagtgcactttccccgrgtcgagcgccacgaccggttty
+    lemniscata01      tggtagagatttctcac-gaactctgctggttgctgccggcgagtgcactttccccgggttgagcgccacgaccggtttt
+    lemniscata03      gtr--grgatycctcac-ggactctgckggctgcygccggcgagtgcactttccccgggttgagcgccacgaccggtttc
+
+    weberi01          ctggcggtcaaaagctccgcgaaaaggtggctcgtcccctc-gggggagtgttatagatcgcggtagttcgccgggagac
+    weberi02          ctggcggtcaaaagctccgcgaaaaggtggctcgtcccctc-gggggagtgttatagatcgcggtagttcgccgggagac
+    sanguinea01       ccggcggtcaaaagctccgcgagaaggtagctcgatccct--cggagagtgttatagatcgcggcagtttgccggtagac
+    sanguinea05       cyggcggtcaraagctccgcragaaggtrgctcswnntccycsggggagtgttatagayygcggcagtttgccggkagac
+    lemniscata01      ctggcggtcataagctccgcgagaaggtagctcgtcccccc-gggggagtgttatagctcgcggtagtttgccgggagac
+    lemniscata03      cyggcggtcasaagctccgygaaaaggtrgctcgtcccctc-gggggagtgttatagrtcrcggtagttcgccgggagac
+
+    weberi01          cgagggtctccagcgcatgcctgcccgaactgcctgcgttcgatcgactggggtagactgctt-agtgttcaccgaccgc
+    weberi02          cgagggtctccagcgcatgcctgcccgaactgcctgcgttcgatcgactggggtagactgctt-agtgttcaccgaccgc
+    sanguinea01       cgagggtctccagcgcctgtcggcccgaactgtctgcgttcgttcaaatggggtagactgcttcagtgttctccgaccgc
+    sanguinea05       cgagggtctccagcgcmtgtcggcccgaactgtstgcgyycgt-caactggggtagactgcttcagtgttcyccgaccgc
+    lemniscata01      cgagggtctccagcgcctgccggcccgaactgcctgcgttcgttcaactggggtagactgctt-agtgttcaccgaccgc
+    lemniscata03      cgagggtctccagcgcctgccggcccgaactgcctgcgttcgttcractggggtagactgctt-agtgttcaccgaccgc
+
+    weberi01          gaatgtagtgtgggtacgcagctcggcagcgcgttgggtc-gtggcgattcggtcggcattccacccgacccgtcttgaa
+    weberi02          gaatgtagtgtgggtacgcagctcggcagcgcgttgggtc-gtggcgattcggtcggcattccacccgacccgtcttgaa
+    sanguinea01       gagcgtagttcgggttcgcagcccggcggcgcgttgggtcagtggcgattcggtcggcactccacccgacccgtcttgaa
+    sanguinea05       grgygyakttcgggtwcgcagcycggcrgcgcgttgggtcagtggcgattcggtcggcaytccacccgacccgtcttgaa
+    lemniscata01      gagcgtagtgtgggtccgcagcccggcggcgcgttgggtcagtggcgattcggtcggcattccacccgacccgtcttgaa
+    lemniscata03      gaaygtagtgygggtacgcagcccggcggcgcgttgggtc-gtggcgattcggtcggcattccacccgacccgtcttgaa
+
+    weberi01          acacggaccaaggagtctaacatgtgcgcaagtcatggggtcatacgaaacctaaaggcgtaatgaaagtgaaggcagcc
+    weberi02          acacggaccaaggagtctaacatgtgcgcaagtcatggggtcatacgaaacctaaaggcgtaatgaaagtgaaggcagcc
+    sanguinea01       acacggaccaaggagtctaacatgtgcgcgagtcatggggtaatacgaaacctaaaggcgcaatgaaagtgaaggcagcc
+    sanguinea05       acacggaccaaggagtctaacatgtgcgcgagtcatggggtmrtacgaaacctaaaggcgcaatgaaagtgaaggcagcc
+    lemniscata01      acacggaccaaggagtctaacatgtgcgcgagtcatggggtcgtacgaaacctaaaggcgtaatgaaagtgaaggcagcc
+    lemniscata03      acacggaccaaggagtctaacatgtgcgcragtcatggggtcgtacgaaacctaaaggcrcaatgaaagtgaaggcagcc
+
+    weberi01          tccggtttgcctaggtaggatccttcctgtagggaggcgcactaccggcccgtctcgtccgcattgccggagaggcggaa
+    weberi02          tccggtttgcctaggtaggatccttcctgtagggaggcgcactaccggcccgtctcgtccgcattgccggagaggcggaa
+    sanguinea01       tccggtttgcctaggtaggatccttcctgtagggaggcgcactaccggcccgtctcgtctgcattgccagagaggcggaa
+    sanguinea05       tccggtttgcctaggtaggatcctycctgtagggaggcgcactaccggcccgtctcgtcygcattgccrgagaggcggaa
+    lemniscata01      tccggtttgcctaggtaggatccttcctgtaggggggcgcactaccggcccgtctcgtccgcattgccggagaggcggaa
+    lemniscata03      tccggtttgcctaggtaggatcctycctgtagggaggcgcactaccggcccgtctcgtccgcattgccggagaggcggaa
+
+    weberi01          gagcgtacacgttgggacccgaaagatggtgaaccaagcagacggcccgtaaatctactggaggaaaggctccacgaaaa
+    weberi02          gagcgtacacgttgggacccgaaagatggtgaaccaagcagacggcccgtaaatctactggaggaaaggctccacgaaaa
+    sanguinea01       gagcgtacacgttgggacccgaaagatggtgaa??aagcagacggcccgtaaatccactggaggaaaggctccacgtaaa
+    sanguinea05       gagcgtacacgttgggacccgaaagatggtgaaccaagcagacggcccgtaaatccactggaggaaaggctccacgtaaa
+    lemniscata01      gagcgtacacgttggaccc-gaaagatggtgaa??aagcagacggcccgtaaatccaccggaggcaaggctccacgtaag
+    lemniscata03      gagcgtacacgttgggacccgaaagatggtgaaccaagcagacggcccgtaaatccactggaggaaaggctccacgwaaa
+
+    weberi01          cagctggctaccaaggccgctcgtaagagtgcaccagctaccggaggagttaagaaacctcacaggtacaggcccggaac
+    weberi02          cagctggctaccaaggccgctcgtaagagtgcaccagctaccggaggagttaagaaacctcacaggtacaggcccggaac
+    sanguinea01       cagctggctaccaaagccgctcgtaagagtgcaccagccaccggaggagtaaagaaaccccacaggtacaggcccggaac
+    sanguinea05       cagctggctaccaaagccgcycgtaagagtgcaccagccaccggaggagtwaagaaaccccacaggtacaggcccggaac
+    lemniscata01      cagctggccaccaaggccgctcgtaagagtgccccagctaccggaggagtgaagaaacctcacaggtacaggccaggaac
+    lemniscata03      cagctggctacmaaggccgcycgtaagagcgcaccagccaccggaggagttaagaaaccccacaggtacaggccyggaac
+
+    weberi01          agtcgctctccgtgagatccgtaggtaccagaaaagcaccgaactcctcatcaggaaactgccattccagcgtcttgtcc
+    weberi02          agtcgctctccgtgagatccgtaggtaccagaaaagcactgaactcctcatcaggaaactgccattccagcgtcttgtcc
+    sanguinea01       agtagctctccgagaaatccgtaggtaccagaagagcaccgagctcctcatcaggaaactcccattccagcgtctcgtcc
+    sanguinea05       agtagctctccgagaaatccgtaggtaccagaagagcaccgagctcctcatcaggaaactgccattccagcgtctcgtcc
+    lemniscata01      agtcgctctccgagaaatccgtaggtaccagaagagcaccgagctcctcatcaggaaactgccattccagcgtctcgtcc
+    lemniscata03      agtagctctccgtgagatccgtaggtaccagaaragcactgaactcctcatcaggaaactgccattccagcgtctygtcc
+
+    weberi01          gtgaaatcgcccaggacttcaagactgacctgaggttccagagctcagctgtcatggctctccaggaggctagcgaagct
+    weberi02          gtgaaatcgcccaggacttcaagactgacctgagattccagagctctgctgtcatggctctccaggaggccagcgaagct
+    sanguinea01       gtgaaatcgcccaggatttcaagaccgacctgaggttccagagctctgctgtcatggccctccaggaggctagcgaggct
+    sanguinea05       gtgaaatcgcccaggatttcaagactgacctgaggttccaragctctgctgtcatggctctccaggaggctagcgaggct
+    lemniscata01      gtgaaatcgctcaagatttcaagaccgacctgagattccagagctctgctgtcatggctctgcaggaggccagcgaagct
+    lemniscata03      gtgaaatcgcccaggatttcaagactgacctgaggttccagagctctgctgtcatggctctccaggaggctagcgaagcy
+
+    weberi01          tacttggtcggactttcgaag---acaccaacctgtgcgccatccatgccaagcgtgtcaccatca
+    weberi02          tacttggtcggacttttcgaagacaccaacctgtgcgccatccatgccaagcgtgtcaccatcatg
+    sanguinea01       tacttggtcggacttttcgaagacaccaacctgtgcgccatccacgccaagcgt????????????
+    sanguinea05       tacttggtcggacntttcgargacaccaacctgtgcgccatccacgccaagcgtgtcaccatcatg
+    lemniscata01      tacttggtgggacttttcgaggacaccaacctgtgcgccatccacgccaaacgtgtcaccatcatg
+    lemniscata03      tanttrgtcggactytttgaggacaccaayctgtgcgccatccatgccaagcgtgtcaccatcatg
+  ;
+END;
+
