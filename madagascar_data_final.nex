@@ -214,3 +214,27 @@ BEGIN DATA;
   ;
 END;
 
+begin mrbayes;
+	log start filename=madagascar-part-log.txt;
+	execute madagascar_data_final.nex;
+	outgroup irradians;
+	charset 12S=1-408;
+	charset 16S=409-866;
+	charset 28S=867-1713;
+	charset H3=1714-2066;
+	partition by_gene=4:12S,16S,28S,H3;
+	set partition=by_gene;
+	lset applyto=(2,3,4) nst=6 rates=invgamma;
+	lset applyto=(1) nst=6 rates=gamma;
+	unlink revmat=(all) statefreq=(all) shape = (all);
+	prset applyto=(all) ratepr=variable;
+	mcmc ngen=10000000 nruns=3 printfreq=1000 samplefreq=100 nchains=4 temp=0.2 checkfreq=5000 diagnfreq=1000 stopval=0.01 stoprule=yes savebrlens=yes filename=NewPhyloTree;
+
+
+	sumt relburnin=yes burninfrac=0.25 contype=halfcompat;
+	sump relburnin=yes burninfrac=0.25;
+	log stop;
+end;
+	
+
+
